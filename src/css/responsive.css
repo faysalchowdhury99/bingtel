@@ -1,0 +1,126 @@
+@media screen and (max-width: 1399px) {
+  #header-section .navbar .navbar-toggler:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  #header-section .navbar .nav-item {
+    margin: 0 0 10px 0;
+  }
+  #header-section .navbar .nav-item:first-child {
+    margin-top: 10px;
+  }
+  #header-section .navbar .nav-item .nav-link::after {
+    left: 0;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* ======= Features ======= */
+  #features-section .features .media {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* ======= Container ======= */
+  .container {
+    padding: 0 30px !important;
+  }
+  /* ======= Reuseable ======= */
+  .heading {
+    font-size: 30px;
+  }
+  /* ======= Banner Section ======= */
+  #banner-section {
+    padding: 50px 0;
+  }
+  #banner-section .left-side h1 {
+    font-size: 30px;
+  }
+  /* ======= Info Section ======= */
+  #info-section {
+    padding: 50px 0;
+  }
+  #info-section .info-bg {
+    padding: 20px;
+  }
+  /* ======= Mobile App Section ======= */
+  #mobile-app-section {
+    padding-bottom: 150px;
+  }
+  /* ======= Integration Section ======= */
+  #integration-section {
+    -webkit-transform: translateY(-80px);
+    transform: translateY(-80px);
+  }
+  #integration-section .right-side .heading {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* ======= Reuseable ======= */
+  .para-text {
+    font-size: 22px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .card-heading {
+    font-size: 30px;
+  }
+  /* ======= Header Section ======= */
+  #header-section .navbar .nav-item .nav-link {
+    font-size: 20px;
+  }
+  /* ======= Banner Section ======= */
+  #banner-section .left-side h1 {
+    font-size: 60px;
+  }
+  /* ======= Footer Section ======= */
+  #footer-section .footer-widget .after-footer-logo-text {
+    font-size: 22px;
+  }
+  #footer-section .footer-widget .footer-sub-heading {
+    font-size: 30px;
+  }
+  #footer-section .footer-widget .footer-link p {
+    font-size: 22px;
+  }
+  #footer-section .footer-widget .footer-link p a {
+    font-size: 22px;
+  }
+  #footer-section .footer-copyright p,
+  #footer-section .footer-copyright a {
+    font-size: 22px;
+  }
+  #footer-section .footer-copyright .footer-border-end-default::after {
+    right: -15%;
+  }
+}
+
+/* Container Responsive */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    max-width: 1680px !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1880px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

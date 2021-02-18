@@ -1,0 +1,167 @@
+@media screen and (max-width: 1399px) {
+  #header-section {
+    .navbar {
+      .navbar-toggler {
+        &:focus {
+          box-shadow: none !important;
+        }
+      }
+      .nav-item {
+        margin: 0 0 10px 0;
+        &:first-child {
+          margin-top: 10px;
+        }
+        .nav-link {
+          &::after {
+            left: 0;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  /* ======= Features ======= */
+  #features-section {
+    .features {
+      .media {
+        transform: translateX(0%);
+      }
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  // Variables
+  $big-heading: 30px;
+  $section-padding: 50px 0;
+  $heading: 30px;
+
+  /* ======= Container ======= */
+  .container {
+    padding: 0 30px !important;
+  }
+  /* ======= Reuseable ======= */
+  .heading {
+    font-size: $heading;
+  }
+  /* ======= Banner Section ======= */
+  #banner-section {
+    padding: $section-padding;
+    .left-side {
+      h1 {
+        font-size: $big-heading;
+      }
+    }
+  }
+  /* ======= Info Section ======= */
+  #info-section {
+    padding: $section-padding;
+    .info-bg {
+      padding: 20px;
+    }
+  }
+  /* ======= Mobile App Section ======= */
+  #mobile-app-section {
+    padding-bottom: 150px;
+  }
+  /* ======= Integration Section ======= */
+  #integration-section {
+    transform: translateY(-80px);
+    .right-side {
+      .heading {
+        font-size: $big-heading;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  // Variables
+  $para-size: 22px;
+  $heading: 50px;
+  $big-heading: 60px;
+  $card-heading: 30px;
+
+  /* ======= Reuseable ======= */
+  .para-text {
+    font-size: $para-size;
+  }
+  .heading {
+    font-size: $heading;
+  }
+  .card-heading {
+    font-size: $card-heading;
+  }
+
+  /* ======= Header Section ======= */
+  #header-section {
+    .navbar {
+      .nav-item {
+        .nav-link {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  /* ======= Banner Section ======= */
+  #banner-section {
+    .left-side {
+      h1 {
+        font-size: $big-heading;
+      }
+    }
+  }
+
+  /* ======= Footer Section ======= */
+  #footer-section {
+    .footer-widget {
+      .after-footer-logo-text {
+        font-size: $para-size;
+      }
+      .footer-sub-heading {
+        font-size: 30px;
+      }
+      .footer-link {
+        p {
+          font-size: $para-size;
+          a {
+            font-size: $para-size;
+          }
+        }
+      }
+    }
+    .footer-copyright {
+      p,
+      a {
+        font-size: $para-size;
+      }
+      .footer-border-end-default {
+        &::after {
+          right: -15%;
+        }
+      }
+    }
+  }
+}
+/* Container Responsive */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .container {
+    max-width: 1680px !important;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1880px !important;
+  }
+}
