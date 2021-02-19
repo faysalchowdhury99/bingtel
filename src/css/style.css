@@ -267,6 +267,11 @@ button:focus {
   color: #ffffff;
 }
 
+#info-section .info-bg .right-side .info-card:hover .card-img-box.white img {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+
 /* ======= About Section ======= */
 #about-section .left-side p {
   color: #364a6b;

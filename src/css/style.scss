@@ -256,6 +256,14 @@ button:focus {
           .card-heading {
             color: #ffffff;
           }
+          .card-img-box {
+            &.white {
+              img {
+                filter: brightness(0) invert(1);
+                -webkit-filter: brightness(0) invert(1);
+              }
+            }
+          }
         }
       }
     }
