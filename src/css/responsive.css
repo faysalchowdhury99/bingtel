@@ -1,7 +1,7 @@
 @media screen and (max-width: 1399px) {
   #header-section .navbar .navbar-toggler:focus {
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+            box-shadow: none !important;
   }
   #header-section .navbar .nav-item {
     margin: 0 0 10px 0;
@@ -23,7 +23,7 @@
   /* ======= Features ======= */
   #features-section .features .media {
     -webkit-transform: translateX(0%);
-    transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 
@@ -57,7 +57,7 @@
   /* ======= Integration Section ======= */
   #integration-section {
     -webkit-transform: translateY(-80px);
-    transform: translateY(-80px);
+            transform: translateY(-80px);
   }
   #integration-section .right-side .heading {
     font-size: 30px;

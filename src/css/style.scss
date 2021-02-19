@@ -408,7 +408,7 @@ button:focus {
   transform: translateY(120px);
   .bg {
     background-color: #c8f0ff;
-    border-radius: 44px;
+    border-radius: 30px;
     padding: 50px;
   }
   .left-side {
@@ -437,12 +437,12 @@ button:focus {
       input {
         background: #ffffff9d 0% 0% no-repeat padding-box;
         border: 1px solid #e4e4e4;
-        border-radius: 12px;
+        border-radius: 6px;
         padding: 10px;
         color: #c2c8d4;
         border: 0;
         font-size: $para-size;
-        &::placeholder {
+        &:placeholder {
           color: #c2c8d4;
         }
         &:focus {
