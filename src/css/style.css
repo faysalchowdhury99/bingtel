@@ -366,6 +366,10 @@ button:focus {
   background-color: #00aeef;
 }
 
+#mobile-app-section .right-side .swiper-pagination-bullets .swiper-pagination-bullet-active:focus {
+  outline: none !important;
+}
+
 /* ======= Integration Section ======= */
 #integration-section {
   transform: translateY(-130px);
@@ -427,7 +431,7 @@ button:focus {
 #contact-section .bg {
   background-color: #c8f0ff;
   border-radius: 30px;
-  padding: 50px;
+  padding: 50px !important;
 }
 
 #contact-section .left-side .heading,

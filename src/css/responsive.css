@@ -62,6 +62,10 @@
   #integration-section .right-side .heading {
     font-size: 30px;
   }
+  /* ======= Contact Section ======= */
+  #contact-section .bg {
+    padding: 30px !important;
+  }
 }
 
 @media screen and (min-width: 1600px) {

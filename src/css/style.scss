@@ -352,6 +352,9 @@ button:focus {
         width: 24px;
         border-radius: 9px;
         background-color: #00aeef;
+        &:focus {
+          outline: none !important;
+        }
       }
     }
   }
@@ -417,7 +420,7 @@ button:focus {
   .bg {
     background-color: #c8f0ff;
     border-radius: 30px;
-    padding: 50px;
+    padding: 50px !important;
   }
   .left-side {
     .heading,
