@@ -106,6 +106,13 @@
 
   /* ======= Header Section ======= */
   #header-section {
+    .top-bar {
+      button,
+      span,
+      a {
+        font-size: 19px !important;
+      }
+    }
     .navbar {
       .nav-item {
         .nav-link {
@@ -129,9 +136,6 @@
     .footer-widget {
       .after-footer-logo-text {
         font-size: $para-size;
-      }
-      .footer-sub-heading {
-        font-size: 30px;
       }
       .footer-link {
         p {

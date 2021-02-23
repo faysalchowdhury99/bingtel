@@ -80,6 +80,11 @@
     font-size: 30px;
   }
   /* ======= Header Section ======= */
+  #header-section .top-bar button,
+  #header-section .top-bar span,
+  #header-section .top-bar a {
+    font-size: 19px !important;
+  }
   #header-section .navbar .nav-item .nav-link {
     font-size: 20px;
   }
@@ -90,9 +95,6 @@
   /* ======= Footer Section ======= */
   #footer-section .footer-widget .after-footer-logo-text {
     font-size: 22px;
-  }
-  #footer-section .footer-widget .footer-sub-heading {
-    font-size: 30px;
   }
   #footer-section .footer-widget .footer-link p {
     font-size: 22px;

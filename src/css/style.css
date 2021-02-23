@@ -151,16 +151,9 @@ button:focus {
   border-radius: 10px;
 }
 
-#header-section .navbar.sticky-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  -webkit-box-shadow: 8px 13px 42px #00000008;
-          box-shadow: 8px 13px 42px #00000008;
-  padding: 5px !important;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  z-index: 9999999999;
+#header-section .navbar.uk-sticky-fixed {
+  -webkit-box-shadow: 3px 8px 12px #00000017;
+          box-shadow: 3px 8px 12px #00000017;
 }
 
 #header-section .navbar .nav-item {
@@ -530,10 +523,8 @@ button:focus {
   -o-transition: all 0.3s ease;
 }
 
-#footer-section .footer-widget .footer-sub-heading {
-  font-size: 26px;
-  color: #ffffff;
-  font-family: "poligon-bold";
+#footer-section .footer-widget .footer-link.navigation-link p a:hover {
+  text-decoration: underline;
 }
 
 #footer-section .footer-widget .footer-link p {
@@ -541,25 +532,13 @@ button:focus {
   font-size: 18px;
 }
 
-#footer-section .footer-widget .footer-link p:hover {
-  text-decoration: underline;
-}
-
 #footer-section .footer-widget .footer-link p a {
   font-size: 18px;
   color: #ffffff;
 }
 
-#footer-section .footer-widget .footer-link p a:hover {
-  text-decoration: underline;
-}
-
 #footer-section .footer-copyright a {
   text-decoration: none;
-}
-
-#footer-section .footer-copyright a:hover {
-  text-decoration: underline;
 }
 
 #footer-section .footer-copyright p {

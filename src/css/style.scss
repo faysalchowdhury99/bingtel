@@ -157,14 +157,8 @@ button:focus {
   }
   //  Navbar
   .navbar {
-    &.sticky-nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      box-shadow: 8px 13px 42px #00000008;
-      padding: 5px !important;
-      transition: all 0.3s ease-in-out;
-      z-index: 9999999999;
+    &.uk-sticky-fixed {
+      box-shadow: 3px 8px 12px #00000017;
     }
     .nav-item {
       margin: 0 10px;
@@ -510,24 +504,22 @@ button:focus {
         }
       }
     }
-    .footer-sub-heading {
-      font-size: 26px;
-      color: #ffffff;
-      font-family: $p-bold;
-    }
     .footer-link {
+      &.navigation-link {
+        p {
+          a {
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
       p {
         color: #ffffff;
         font-size: $footer-text-size;
-        &:hover {
-          text-decoration: underline;
-        }
         a {
           font-size: $footer-text-size;
           color: #ffffff;
-          &:hover {
-            text-decoration: underline;
-          }
         }
       }
     }
@@ -535,9 +527,6 @@ button:focus {
   .footer-copyright {
     a {
       text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
     }
     p {
       color: #ffffff;

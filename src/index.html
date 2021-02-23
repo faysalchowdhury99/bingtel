@@ -25,6 +25,11 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <!-- UI Kit -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css"
+    />
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -97,7 +102,11 @@
         </div>
       </div>
       <!-- Navbar -->
-      <nav id="navbar-scrollspy" class="navbar navbar-expand-xxl py-3 bg-white">
+      <nav
+        id="navbar-scrollspy"
+        uk-sticky="offset: 0;"
+        class="navbar navbar-expand-xxl py-3 bg-white uk-sticky"
+      >
         <div class="container">
           <a class="navbar-brand" href="index.html"
             ><img src="img/logo.png" alt="logo" class="img-fluid logo"
@@ -174,8 +183,8 @@
                 Communication Collaboration Simplified
               </h1>
               <p class="my-4 para-text">
-                "Keep growing your business with the simple, all in one
-                communications platform whenever, wherever you go"
+                Grow your business with the simple, all in one communications
+                platform whenever, wherever
               </p>
               <div class="button-box pt-3">
                 <a
@@ -311,7 +320,7 @@
       <div class="container">
         <!-- Section Title -->
         <div class="section-title text-center">
-          <h2 class="heading">Explore our Products and Services</h2>
+          <h2 class="heading">Explore Our Products And Services</h2>
         </div>
         <!-- Service cards -->
         <div class="row g-5 mt-5">
@@ -928,7 +937,10 @@
                 <div class="col-xl-6">
                   <div class="left-side">
                     <h2 class="heading">
-                      Interested in learning more about Bingtel?
+                      Interested in learning more about Bingtel<span
+                        class="euclid-circular-bold"
+                        >?</span
+                      >
                     </h2>
                     <p class="para-text my-4">Let’s chat.</p>
                     <div class="email-us mt-4">
@@ -1008,8 +1020,8 @@
                   class="img-fluid footer-logo"
               /></a>
               <p class="text-white py-4 after-footer-logo-text">
-                "Keep growing your business with the simple, all in one
-                communications platform whenever, wherever you go"
+                Grow your business with the simple, all in one communications
+                platform whenever, wherever
               </p>
               <div class="social-links mt-4">
                 <a href="javascript:void(0)"
@@ -1031,28 +1043,30 @@
             <div class="col-lg-8 col-xxl-6">
               <div class="row g-5 justify-lg-content-end">
                 <div class="col-sm-6 col-lg-4 col-xxl-4">
-                  <h3 class="footer-sub-heading">Info</h3>
-                  <div class="footer-link py-3 py-sm-5">
-                    <p><a href="javascript:void(0)">Home</a></p>
-                    <p><a href="javascript:void(0)"> Why Bingtel </a></p>
-                    <p><a href="javascript:void(0)">Products & Services </a></p>
+                  <div class="footer-link navigation-link">
+                    <p><a href="#header-section">Home</a></p>
+                    <p><a href="#about-section"> Why Bingtel </a></p>
                     <p>
-                      <a href="javascript:void(0)">Mobile App </a>
+                      <a href="#product-and-service-section"
+                        >Products & Services
+                      </a>
                     </p>
                     <p>
-                      <a href="javascript:void(0)">Integrations </a>
+                      <a href="#mobile-app-section">Mobile App </a>
                     </p>
                     <p>
-                      <a href="javascript:void(0)"> Features </a>
+                      <a href="#integration-section">Integrations </a>
                     </p>
                     <p>
-                      <a href="javascript:void(0)">Contact Us </a>
+                      <a href="#features-section"> Features </a>
+                    </p>
+                    <p>
+                      <a href="#contact-section">Contact Us </a>
                     </p>
                   </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                  <h3 class="footer-sub-heading">Navigation</h3>
-                  <div class="footer-link py-3 py-sm-5">
+                  <div class="footer-link">
                     <p>
                       <a href="javascript:void(0)">Hosted Cloud Voice </a>
                     </p>
@@ -1072,8 +1086,7 @@
                   </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                  <h3 class="footer-sub-heading">Navigation</h3>
-                  <div class="footer-link py-3 py-sm-5">
+                  <div class="footer-link">
                     <p>5506 16 Avenue Brooklyn NY 11204</p>
                     <p><a href="tel:+718-400-9095">718-400-9095</a></p>
                     <p>
@@ -1090,12 +1103,14 @@
             </div>
           </div>
         </div>
-        <div class="footer-copyright text-white text-start py-3 border-top">
+        <div
+          class="footer-copyright text-white text-start py-3 border-top mt-5"
+        >
           <div class="row py-2 align-items-center">
             <div
               class="col-sm-6 col-md-7 text-center text-sm-start align-self-center"
             >
-              <p class="mb-0">Copyright © 2021 Faysal, All Rights Reserved.</p>
+              <p class="mb-0">Copyright © 2021 Bingtel</p>
             </div>
             <div
               class="col-sm-6 col-md-5 text-center text-sm-end align-self-center"
@@ -1121,6 +1136,8 @@
     ></script>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
     <!-- Main JS -->
     <script src="js/index.js"></script>
   </body>
