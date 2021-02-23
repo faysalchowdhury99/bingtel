@@ -3,8 +3,9 @@ body {
   font-family: 'poligon-regular';
 }
 
-a {
-  text-decoration: none;
+a,
+button {
+  text-decoration: none !important;
 }
 
 button:focus {
@@ -524,7 +525,7 @@ button:focus {
 }
 
 #footer-section .footer-widget .footer-link.navigation-link p a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 #footer-section .footer-widget .footer-link p {
@@ -537,18 +538,10 @@ button:focus {
   color: #ffffff;
 }
 
+#footer-section .footer-copyright p,
 #footer-section .footer-copyright a {
-  text-decoration: none;
-}
-
-#footer-section .footer-copyright p {
   color: #ffffff;
   font-size: 18px;
-}
-
-#footer-section .footer-copyright p a {
-  font-size: 18px;
-  color: #ffffff;
 }
 
 #footer-section .footer-copyright .footer-border-end-default {
