@@ -1,4 +1,21 @@
-@media screen and (max-width: 1399px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #header-section .navbar .navbar-toggler:focus {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  #header-section .navbar .nav-item {
+    margin: 0 3px;
+  }
+  #header-section .navbar .nav-item .nav-link {
+    font-size: 17px;
+  }
+  #header-section .button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
   #header-section .navbar .navbar-toggler:focus {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;

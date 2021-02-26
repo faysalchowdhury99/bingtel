@@ -1,4 +1,25 @@
-@media screen and (max-width: 1399px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #header-section {
+    .navbar {
+      .navbar-toggler {
+        &:focus {
+          box-shadow: none !important;
+        }
+      }
+      .nav-item {
+        margin: 0 3px;
+        .nav-link {
+          font-size: 17px;
+        }
+      }
+    }
+    .button {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
   #header-section {
     .navbar {
       .navbar-toggler {
